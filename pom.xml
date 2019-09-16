@@ -212,16 +212,17 @@
     <tag>HEAD</tag>
     <url>http://github.com/jleetutorial/maven-project</url>
   </scm>
+         
    <plugin>
-        <groupId>org.apache.tomcat.maven</groupId>
-        <artifactId>tomcat8.5.45-maven-plugin</artifactId>
-        <version>2.2</version>
-        <configuration>
-         <url>http://13.127.188.134:8080/manager</url>
-         <username>admin</username>
-         <password>admin</password>
-         </configuration>
-   </plugin>
+      <groupId>org.apache.tomcat.maven</groupId>
+      <artifactId>tomcat8.5.45-maven-plugin</artifactId>
+      <version>2.2</version>
+      <configuration>
+        <url>http://13.127.188.134:8080/manager</url>
+        <username>admin</username>
+        <password>admin</password>
+      </configuration>
+    </plugin>
 
   <prerequisites>
     <maven>3.0.3</maven>
