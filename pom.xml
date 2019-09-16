@@ -163,14 +163,14 @@
   </build>
          
     <plugin>
-      <groupId>org.apache.tomcat.maven</groupId>
-      <artifactId>tomcat8.5.45-maven-plugin</artifactId>
-      <version>2.2</version>
-      <configuration>
-        <url>http://13.127.188.134:8080/manager</url>
-        <username>admin</username>
-        <password>admin</password>
-      </configuration>
+         <groupId>org.apache.tomcat.maven</groupId>
+         <artifactId>tomcat8-maven-plugin</artifactId>
+         <version>2.2</version>
+         <configuration>
+           <url>http://13.127.188.134:8080/manager/text</url>
+           <server>Tomcat</server>
+         <path>/webapp</path>
+         </configuration>
     </plugin>
 
   <dependencyManagement>
