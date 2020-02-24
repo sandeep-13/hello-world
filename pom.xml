@@ -162,7 +162,7 @@
     </pluginManagement>
   </build>
          
-    <plugin>
+    <!--<plugin>
          <groupId>org.apache.tomcat.maven</groupId>
          <artifactId>tomcat8-maven-plugin</artifactId>
          <version>2.2</version>
@@ -172,7 +172,7 @@
          <path>/webapp</path>
          </configuration>
     </plugin>
-
+    -->
   <dependencyManagement>
     <dependencies>
       <dependency>
